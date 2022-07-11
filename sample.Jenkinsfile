@@ -1,5 +1,9 @@
 pipeline{
     agent any
+    parameters
+    {
+        parameters { text(name: 'DEPLOY_TEXT', defaultValue: 'One\nTwo\nThree\n', description: '') }
+    }
     stages{
         stage("Downloading the code repo"){
             steps{
