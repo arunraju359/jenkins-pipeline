@@ -6,7 +6,9 @@ pipeline{
                 git branch: 'main', url: 'https://github.com/arunraju359/terraform-vpc.git'
                 
             }
+        }
         stage("Listing")
+        {
             steps{
                 sh "ls -l"
             }
