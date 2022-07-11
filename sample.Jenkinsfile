@@ -15,7 +15,7 @@ pipeline{
         {
             steps{
                 sh "ls -l"
-                echo "Printing the ${params.DEPLOY_TEXT}"
+                echo "Printing the \n ${params.DEPLOY_TEXT}"
             }
         }
     }
