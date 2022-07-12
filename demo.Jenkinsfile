@@ -20,7 +20,7 @@ pipeline{
         {
             steps{
                 sh 'uptime'
-                sh 'ifconfig -a'
+                sh 'pwd'
             }
         }
 
