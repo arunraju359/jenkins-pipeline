@@ -21,7 +21,7 @@ pipeline{
             steps{
                 sh 'uptime'
                 sh 'pwd'
-                ls 'ls -ltr'
+                sh 'ls -ltr'
             }
         }
 
