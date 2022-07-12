@@ -20,8 +20,7 @@ pipeline{
         {
             steps{
                 sh 'uptime'
-                sh 'pwd'
-                sh 'cd /home/ec2-user | ls -l'
+                sh 'curl ifconfig.co'
             }
         }
 
