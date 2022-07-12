@@ -16,6 +16,12 @@ pipeline{
                 sh "ls -ltr"
             }
         }
+        stage("Want to display the ip")
+        {
+            steps{
+                sh "uptime"
+            }
+        }
 
     }
 }
