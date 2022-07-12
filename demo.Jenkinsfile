@@ -21,7 +21,7 @@ pipeline{
             steps{
                 sh 'uptime'
                 sh 'pwd'
-                sh 'ls -ltr'
+                sh 'cd /home/ec2-user | ls -l'
             }
         }
 
