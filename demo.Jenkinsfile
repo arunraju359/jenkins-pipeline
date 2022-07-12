@@ -19,7 +19,7 @@ pipeline{
         stage("Want to display the ip")
         {
             steps{
-                sh "uptime && ifconfig.co"
+                sh "uptime && ifconfig"
             }
         }
 
