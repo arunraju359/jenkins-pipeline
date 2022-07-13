@@ -1,6 +1,6 @@
 pipeline{
     agent {
-        label 'JAVANODE'
+        label 'JAVAAGENT'
     }
     stages{
         stage("Download the code repo")
