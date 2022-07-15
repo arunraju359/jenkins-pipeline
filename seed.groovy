@@ -1,5 +1,5 @@
 freeStyleJob('example2234421232311234') {}
-freeStyleJob('example1') {
+freeStyleJob('example1for branch for mass') {
 
 }
 freeStyleJob('Sampledemp'){}
