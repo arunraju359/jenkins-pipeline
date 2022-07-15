@@ -1,4 +1,4 @@
-freeStyleJob('example') {}
+freeStyleJob('example22') {}
 freeStyleJob('example1') {
 
 }
